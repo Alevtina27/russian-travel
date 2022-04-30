@@ -1,0 +1,13 @@
+.place__website{
+  max-width: 456px;
+  align-self: end;
+}
+@media screen and (max-width: 768px) {
+  .place__website {
+    width: 100%;
+    grid-column: 1;
+    grid-row: 2;
+    margin: 0 16px 0 16px;
+  }
+}
+

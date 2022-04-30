@@ -1,0 +1,48 @@
+.cover{
+  display: flex;
+  position: relative;
+  max-width: 1184px;
+  min-height: 740px;
+  margin: 0 auto;
+  margin-top: 92px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+@media screen and (max-width: 1280px) {
+  .cover {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 88px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .cover {
+    width: 100%;
+    margin: 0;
+    padding-top: 90px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .cover {
+    width: 100%;
+    min-height: 480px;
+    margin: 0;
+    padding-top: 90px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .cover {
+    width: 100%;
+    min-height: 200px;
+    margin: 0;
+    padding-top: 66px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .cover {
+    width: 100%;
+    min-height: 200px;
+    margin: 0;
+   padding-top: 66px;
+  }
+}
