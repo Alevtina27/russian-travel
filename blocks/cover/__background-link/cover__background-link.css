@@ -1,4 +1,4 @@
-.cover__background{
+.cover__background-link{
   display: grid;
   grid-column: 1;
   grid-row: 1/3;
@@ -11,7 +11,7 @@
   text-decoration: none;
   z-index: 1;
 }
-.cover__background::before {
+.cover__background-link::before {
   content: '';
   width: 100%;
   height: 100%;
@@ -23,42 +23,18 @@
   transition: opacity .6s ease;
   z-index: 2;
   }
-
-.cover__background:hover::before {
+.cover__background-link:hover::before {
   background-color: #2A2C2F;
   opacity: .8;
 }
 @media screen and (max-width: 1280px) {
-  .cover__background {
+  .cover__background-link {
     width: 100%;
-    
-  }
-}
-@media screen and (max-width: 1024px) {
-  .cover__background {
-    width: 100%;
-
-
   }
 }
 @media screen and (max-width: 768px) {
-  .cover__background {
+  .cover__background-link {
     width: 100%;
-
-    gap: 16px;
-  }
-}
-@media screen and (max-width: 425px) {
-  .cover__background {
-    width: 100%;
-
-    gap: 16px;
-  }
-}
-@media screen and (max-width: 320px) {
-  .cover__background {
-    width: 100%;
-
     gap: 16px;
   }
 }

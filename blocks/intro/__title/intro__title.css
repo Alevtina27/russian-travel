@@ -3,20 +3,26 @@
   font-weight: 900;
   font-size: 54px;
   font-style: normal;
-  line-height: 1.2;
+  line-height: 58px;
   color: #FFFFFF;
   margin: 0;
   margin-block-start: 0;
   margin-block-end: 0;
 }
+@media screen and (max-width: 1024px) {
+  .intro__title {
+    width: 100%;
+  }
+}
 @media screen and (max-width: 768px) {
   .intro__title {
-    max-width: 720px;
+    font-size: 7.03vw;
+    line-height: 7.68vw;
   }
 }
 @media screen and (max-width: 425px) {
   .intro__title {
-    max-width: 288px;
     font-size: 32px;
+    line-height: 35px;
   }
 }

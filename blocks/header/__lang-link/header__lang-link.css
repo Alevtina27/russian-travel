@@ -2,6 +2,8 @@
   max-width: 30px;
   margin: 0;
   color: #ffffff;
+  text-decoration-line: none;
+  transition: color 1s linear 2s;
 }
 .header__lang-link:first-of-type{
   margin-right: 18px;
@@ -12,12 +14,5 @@
 @media screen and (max-width: 425px) {
   .header__lang-link {
     max-width: 22px;
-    min-height: 20px;
-  }
-}
-@media screen and (max-width: 320px) {
-  .header__lang-link {
-    max-width: 22px;
-    min-height: 20px;
   }
 }

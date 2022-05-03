@@ -1,32 +1,13 @@
 .lead__image{
-  max-width: 984px;
+  width: 100%;
   z-index: 1;
+  grid-row: 1;
+  grid-column: 1;
   align-self: center;
-
 }
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 320px) {
   .lead__image {
-    width: 100%;
-
-  }
-}
-@media screen and (max-width: 1024px) {
-  .lead__image {
-    width: 100%;
-  }
-}
-@media screen and (max-width: 768px) {
-  .lead__image {
-    width: 100%;
-
-  }
-}
-@media screen and (max-width: 425px) {
-  .lead__image {
-    width: 100%;
-  }
-}@media screen and (max-width: 320px) {
-  .lead__image {
-    width: 100%;
+    min-height: 200px;
+    width: auto;
   }
 }

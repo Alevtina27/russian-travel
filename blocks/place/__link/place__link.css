@@ -6,6 +6,7 @@
   text-decoration-skip-ink: none;
   color:#FFFFFF;
   font-style: normal;
+  transition: color 1s linear 2s;
 }
 .place__link:hover{
   opacity: .8;
