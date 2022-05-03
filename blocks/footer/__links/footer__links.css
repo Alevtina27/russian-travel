@@ -10,7 +10,7 @@
   margin-block-start: 0;
   margin-block-end: 0;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 750px) {
   .footer__links {
     grid-template-columns: min-content;
     grid-template-rows: repeat(5, min-content);

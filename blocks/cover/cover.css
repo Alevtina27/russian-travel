@@ -2,34 +2,27 @@
   display: flex;
   position: relative;
   max-width: 1184px;
-  min-height: 740px;
+  max-height: 740px;
   margin: 0 auto;
+  padding-top: 92px;
   text-decoration: none;
   color: #FFFFFF;
 }
 @media screen and (max-width: 1280px) {
   .cover {
-    width: 100%;
-    padding-top: 88px;
+    width: 92.5%;
+    padding-top: 92px;
   }
 }
 @media screen and (max-width: 1024px) {
   .cover {
     width: 100%;
-    padding-top: 90px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .cover {
-    width: 100%;
-    min-height: 480px;
-    padding-top: 90px;
+    padding-top: 92px;
   }
 }
 @media screen and (max-width: 425px) {
   .cover {
     width: 100%;
-    min-height: 200px;
     padding-top: 66px;
   }
 }

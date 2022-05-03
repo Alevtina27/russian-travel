@@ -20,18 +20,20 @@
     margin-bottom: 25px;
   }
 }
-@media screen and (max-width: 768px) {
-  .place__paragraph {
-    font-size: 16px;
-    line-height: 26px;
-    width: 82.5%;
-  }
-}
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 639px) {
   .place__paragraph {
     width: 90%;
-    margin: 24px auto;
+    grid-column: 1;
     font-size: 16px;
+    line-height: 26px;
+    margin: 10px auto;
   }
 }
-
+@media screen and (max-width: 320px) {
+  .place__paragraph {
+    width: 90%;
+    margin: auto;
+    font-size: 16px;
+    line-height: 26px;
+  }
+}

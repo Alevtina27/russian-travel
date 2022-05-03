@@ -4,8 +4,8 @@
   padding: 92px 0 0 0;
   display: grid;
   box-sizing: border-box;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-rows: auto;
   gap: 16px;
 }
 @media screen and (max-width: 1280px) {
@@ -16,25 +16,18 @@
 @media screen and (max-width: 1024px) {
   .photo {
     width: 90.62%;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 1fr);
     gap: 14px;
   }
 }
 @media screen and (max-width: 768px) {
   .photo {
-    width: 100%;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    width: 93.75%;
     padding-top: 88px;
     gap: 16px;
   }
 }
 @media screen and (max-width: 425px) {
   .photo {
-    width: 100%;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(1, 1fr);
     padding-top: 64px;
     gap: 12px;
   }
