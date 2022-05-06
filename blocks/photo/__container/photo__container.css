@@ -1,0 +1,7 @@
+.photo__container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 75%;
+  display: flex;
+}
+

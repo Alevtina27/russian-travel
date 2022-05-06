@@ -6,17 +6,23 @@
 }
 @media screen and (max-width: 1024px) {
   .information {
-    width: 90.62%;
+    width: 90.61%;
   }
 }
 @media screen and (max-width: 768px) {
   .information {
    width: 93.75%;
    padding-top: 88px;
+   justify-content: center;
   }
 }
 @media screen and (max-width: 639px) {
   .information {
-   padding-top: 64px;
+    padding-top: 64px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .information {
+    width: 90%;
   }
 }

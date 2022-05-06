@@ -15,7 +15,7 @@
   text-decoration-line: none;
   z-index: 4;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 639px) {
   .cover__title {
     max-width: 288px;
     font-size: 32px;

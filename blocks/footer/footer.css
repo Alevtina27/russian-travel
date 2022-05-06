@@ -35,13 +35,4 @@
     padding-top: 64px;
   }
 }
-@media screen and (max-width: 375px) {
-  .footer {
-    max-width: 343px;
-  }
-}
-@media screen and (max-width: 320px) {
-  .footer {
-    width: 90%;
-  }
-}
+

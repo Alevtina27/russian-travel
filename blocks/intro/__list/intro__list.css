@@ -9,14 +9,14 @@
   font-style: normal;
   color: #FFFFFF;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1280px) {
   .intro__list {
-    width: 100%;
+   width: 96%;
   }
 }
 @media screen and (max-width: 768px) {
   .intro__list {
-    max-width: 720px;
+   width: 100%;
   }
 }
 @media screen and (max-width: 425px) {

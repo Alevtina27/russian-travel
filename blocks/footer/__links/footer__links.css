@@ -14,9 +14,7 @@
   .footer__links {
     grid-template-columns: min-content;
     grid-template-rows: repeat(5, min-content);
-    gap: 36px;
-    font-size: 14px;
-    line-height: normal;
+    gap: 32px;
   }
 }
 

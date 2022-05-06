@@ -15,7 +15,7 @@
 }
 @media screen and (max-width: 1024px) {
   .photo {
-    width: 90.62%;
+    width: 90.63%;
     gap: 14px;
   }
 }
@@ -28,15 +28,9 @@
 }
 @media screen and (max-width: 425px) {
   .photo {
+    width: 90%;
     padding-top: 64px;
     gap: 12px;
   }
 }
-@media screen and (max-width: 320px) {
-  .photo {
-    padding-top: 64px;
-    width: 95%;
-    gap: 12px;
-    justify-items: center;
-  }
-}
+
