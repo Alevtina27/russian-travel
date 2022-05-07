@@ -4,14 +4,12 @@
 }
 @media screen and (max-width: 768px) {
   .place__image {
-    width: 100%;
     grid-column: 1;
     grid-row: 2;
   }
 }
 @media screen and (max-width: 639px) {
   .place__image {
-    grid-column: 1;
     grid-row: 3/6;
   }
 }
